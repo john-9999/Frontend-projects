@@ -229,6 +229,7 @@ body {
 	width: 250px;
 	border: solid #transparent;
 	border-radius: 55px;
+	margin-bottom: -50px
 }
 
 
@@ -769,59 +770,7 @@ body {
 	background-color: #000;
 }
 
-/*------------------------SLIDER------------------------*/
-.slider{
-	width: 95%;
-	height: 30%;
-	margin: auto;
-	overflow: hidden; /*para que a 1ra vista no nse vean los demas elementos uno al lado de otro*/
-    margin-bottom: -120px;
-    margin-top: -20px;
-}
 
-.slider ul{
-	display: flex; /*colocamos una imagen al lado de la otra ya que están en lista*/
-	padding: 0;
-	width: 400%;
-	height: 30%;
-	animation: cambio 20s infinite alternate;/*para que vuelvan las img de atras hacia delante*/
-	animation-timing-function: linear; /*para que empiece siempre la misma velocidad la animación*/ 
-}
-
-.slider li{
-	width: 100%;
-
-	list-style: none;
-}
-
-
-.slider img{
-	width: 100%;
-	height: 30%;
-	object-fit: cover;
-}
-
-#bienvenido-slider{
-	background-color: #fff;
-	color: #000;
-	border: #transparent;
-	border-radius: 50%;
-	margin: 10px;
-}
-
-@keyframes cambio {
-	0% {margin-left: 0;}        /*primera imagen: 1s*/
-	20% {margin-left: 0;}
-
-	25%{margin-left: -100%;}    /*segunda imagen:4s*/
-	45%{margin-left: -100%;}
-
-	50%{margin-left: -200%;}    /*tercera imagen:4s*/
-	70%{margin-left: -200%;}
-
-	75%{margin-left: -300%;}    /*cuarta imagen:4s*/
-	100%{margin-left: -300%;}  
-}
 
 /*------------------------CONTENEDOR BIENVENIDA------------------------*/
 
@@ -842,19 +791,14 @@ body {
     width: 0;
     background-color: #000;
     border-left: 1px solid #fff;
-
-
     animation: maquina 5s infinite alternate ;
 }
-
 @keyframes maquina {
 	from{
 		width: 100%;
 	}
-
 	to{
 		width: 0;
 	}
 }
 */
-
