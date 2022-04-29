@@ -705,7 +705,7 @@ body {
 
 .card__back{
     transform: rotateY(180deg);
-    background: white;
+    background: #00ffff;
 }
 
 .body__card_front{
@@ -769,7 +769,6 @@ body {
 .body__card_back .button{
 	background-color: #000;
 }
-
 
 
 /*------------------------CONTENEDOR BIENVENIDA------------------------*/
