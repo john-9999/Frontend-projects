@@ -603,6 +603,10 @@ body {
 	border-radius: 10px;
 }
 
+.button-next-page-2:hover{
+	background-color: #fff
+}
+
 .a-next-page-2 b{
 	color: #000;
 	font-family: font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
